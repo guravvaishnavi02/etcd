@@ -1,8 +1,7 @@
 module go.etcd.io/etcd/etcdctl/v3
 
 go 1.23
-
-toolchain go1.23.4
+toolchain go1.24.1
 
 require (
 	github.com/bgentry/speakeasy v0.2.0
@@ -38,9 +37,9 @@ require (
 	github.com/rivo/uniseg v0.4.7 // indirect
 	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/net v0.34.0 // indirect
-	golang.org/x/sys v0.29.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20241219192143-6b3ec007d9bb // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20241219192143-6b3ec007d9bb // indirect
 	google.golang.org/protobuf v1.36.1 // indirect
